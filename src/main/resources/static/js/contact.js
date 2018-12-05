@@ -195,7 +195,6 @@ window.contact = {
 		for (var z = 0 ; z < contactArray.length ; z ++ ) {
 			var friendArray = contactArray[z];
 			if (friendArray.length > 0) {
-				
 				var nicknameStarter = enWords[z];
 				contactHtml += '<p class="friends_text">' + nicknameStarter + '</p>';
 				for (var x = 0 ; x < friendArray.length ; x ++ ) {
